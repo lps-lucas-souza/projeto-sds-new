@@ -1,10 +1,14 @@
-import React from 'react';
+import BarCharts from "components/BarCharts";
+import DataTable from "components/DataTable";
+import DonutChart from "components/DonutChart";
+import Footer from "components/Footer";
+import NavBar from "components/NavBar";
+import Routes from "Routes";
+
 
 function App() {
   return (
-    <div>
-      <h1>Olá mundo!</h1>
-    </div>
+    <Routes />
   );
 }
 
